@@ -23,24 +23,30 @@
        
   + If you want to add some inline code have a (') tick in that word . Ex: 1
   + If you want to have a block of code have a (''') 3 tick in that . Ex: 2
+  
     1. 'variable'
-    2. '''python
-        a = sqrt(4)
+    
+    2. '''html
+        <p>An example</p>
         '''
-  + To put the images use syntax : ![alt text](URL). Ex:
+        
+  + To put the images use syntax : ![alt text](URL). Ex: (creating a random picture)
     
     ![alt text](http://picsum.photos/200/200)
     
   + We can also add blockquote using sign (greater than). Ex :
     > blockquote created.
+    
     | heading | header | head|
     | ... | ... | ... |
     | content | more content | text |
     
    + To bold a sentence use double astrick (**). Ex:
+   
     ** Notes by Yashika for readme **
     
    + For italic sentence use one astrick (*). Ex:
+   
      *learn then proceed*
     
   
