@@ -41,7 +41,7 @@
     
   + To bold a sentence use double astrick. Ex:
     
-    **Notes by Yashika for readme. **
+    **Notes by Yashika for readme**
     
   + For italic sentence use one astrick (*). Ex:
    
