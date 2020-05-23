@@ -7,16 +7,17 @@
 
     Ex : for making heading 4 ,write (#### heading 4)
   
-  + TO MAKE THE LINE A NEW SETENCE PRESS ENTER TWO TIMES.
+  + To make a line new sentence press **ENTER** two times.
   + To make bullets you can use sign (plus(+),minus(-),astrick) with a space before sentence.
   
     plus sign recommended.
     
   + Put two spaces in front of hypen to indent the text. Ex :
+    
     -indented
-     1. If you put the number it will give you capital case or lower case.
+      1. If you put the number it will give you capital case or lower case.
      
-     this whole in this point is what we call a list
+     This whole in this point is what we call a list.
   + Now if we want to add a link in our repo, it can be done in two ways :
     1. [text/description](0)  , text followed by paranthesis . Ex:
     
@@ -39,8 +40,8 @@
     | content | more content | text |
     
   + To bold a sentence use double astrick. Ex:
-   
-    ** Notes by Yashika for readme **
+    
+    **Notes by Yashika for readme. **
     
   + For italic sentence use one astrick (*). Ex:
    
