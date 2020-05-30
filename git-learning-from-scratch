@@ -1,0 +1,162 @@
+# Introduction to Git and Github
+
+## Git
+
+Git is a free and open source distributed version control(Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later. For example:If you are a graphic or web designer and want to keep every version of an image or layout which you would most certainly want to, a Version Control System (VCS) is a very wise thing to use) system designed to handle everything from small to very large projects with speed and efficiency.
+
+Git is easy to learn and has a tiny footprint with lightning fast performance. It was created by Linus Torvalds in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
+
+It is designed for coordinating work among programmers, but it can be used to track changes in any set of files. Its goals include speed, data integrity, and support for distributed, non-linear workflows. Git supports rapid branching and merging, and includes specific tools for visualizing and navigating a non-linear development history
+
+### Git Identity
+  The first thing you should do when you install Git is to set your user name and email address. This is important because every Git commit uses this information, and it’s immutably baked into the commits you start creating:
+
+$ git config --global user.name
+
+$ git config --global user.email
+
+
+
+#### Git Workflow
+
++ The idea is simple: •There is one central repository. •Each developer clones the repo, works locally on the code, makes a commit with changes, and push it to the central repository for other developers to pull and use in their work.
+
++ Operations :
+
+1.	Committed – which means latest changes in our data Is safely stored in local repository .
+
+2.	Modified – means changes done in data will not be reflected in local repository.
+
+    3. Staged – means file is the part of index, i.e. to be considered in next commit.
+
+
+## GitHub
+
+GitHub is a platform for all technical people who can record their work/projects in form of repositories. t provides cloud storage for source code, supports all popular programming languages, and streamlines the iteration process.
+
+Repositories can be of two types : master or forked -
+
++ Master - It is the one who creates the repository.
++ Forked - The other members of project can get the repository on their profile through fork.
+ It also provide many tools to clone / download the repository of other people.
+it provides the section which make easier to read and understand to others. Individual Git repositories can be remotely accessed by any authorized person. It also has a limit of people to work together if you are not a pro member.
+
+
+# commands used to perform operations  :
+
+## Checking your present directory
+
+  - pwd
+
+## Making new directory
+
+  - mkdir directoryName
+
+## Changing your directory
+
+  - cd directoryName
+
+## Cloning a repository
+
+  - git clone URl (given at Clone & Download option in github)
+
+## To check status i.e. working tree
+
+  - git status
+
+## Making a txt file
+
+  - name.txt
+
+## Making a readme file
+
+  - file.md
+
+  + **Note the ectensions to make such files**
+
+  + **Important**
+
+  Redme file should be in Markdown language.
+
+  reffer link : [Click here](https://github.com/yashika0998/git-learning)
+
+
+  + **Inserting text in editor**
+
+  press ESC + i
+
+  + **Saving and quit out of file**
+
+  press ESC + :
+
+
+  then write `wq`
+
+## Make change to project by add
+
+  - git add
+
+## Make changes through commit
+
+  - git commit -m "any name"
+
+  **Notice : You cannot commit before adding your work**
+
+## push work done
+
+  - git config --global user.email "mailid.com"
+
+  - git config --global user.name "github User Name"
+
+  - git log | head
+
+  - git push
+
+## Check your current branch
+
+  - git branch
+
+## Making & Entering in new branch
+
+  - git checkout -b new-branch
+
+## Changing the branch
+
+  - git checkout branch-name
+
+## delete a branch
+
+  - git branch-name -d
+
+  - git branch-name -D
+
+## Merging new branch into master branch
+
+  - git merge branch-name
+
+# Raising issue
+
++ Issues can be used to keep track of bugs, enhancements, or other requests.
+
++ Any GitHub user can create an issue in a public repository where issues have not been disabled.
+
+  - 1. You can open a new issue based on code from an existing pull request.
+
+  - 2. You can open a new issue directly from a comment in an issue or a pull request review.
+
+# flowchart to create an issue :
+
+1. On GitHub, navigate to the main page of the repository.
+
+2. Under your repository name, click Issues.
+3. Click New issue.
+4. If there are multiple issue types, click Get started next to the type of issue you'd like to open.
+5. Type a title and description for your issue.
+6. If you're a project maintainer, you can assign the issue to someone, add it to a project board, associate it with a milestone, or apply a label.
+7. When you're finished, click Submit new issue.
+
+You can easily start your journey to git and github now :smiley:
+                                                                                                               
+
+
+
